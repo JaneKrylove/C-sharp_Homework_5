@@ -22,9 +22,6 @@ void PrintArray(int [] array)
 }
 
 
-int[] ourArray = CreateRandomArray(10,100, 999);
-PrintArray(ourArray);
-
 int FindEvenDigitals(int [] array)
 {
     int number = 0;
@@ -37,6 +34,11 @@ int FindEvenDigitals(int [] array)
 }
 
 
+ 
+int [] elements = CreateRandomArray(10,100, 999);
+PrintArray(elements);
+Console.WriteLine();
 
+FindEvenDigitals(elements);
 
-
+Console.WriteLine($"Количество чётных чисел: {elements}");
