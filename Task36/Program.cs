@@ -22,9 +22,7 @@ void PrintArray(int [] array)
 
 }
 
-    Console.Write("[");
-
-int SumOddDigitals (int[] array)
+    int SumOddDigitals (int[] array)
 {
     int sum = 0;
 
@@ -35,15 +33,19 @@ int SumOddDigitals (int[] array)
 
     return sum;
 
-    Console.Write("]");
-}
+  }
 
     
 
 int [] elements = CreateRandomArray(10, 1, 100);
+
+Console.Write("[");
 PrintArray(elements);
 
+Console.Write("]");
+
 Console.WriteLine();
+
 
 int number = SumOddDigitals(elements);
 
